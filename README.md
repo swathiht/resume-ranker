@@ -1,13 +1,13 @@
-# 📄 Resume Ranker — AI Powered Recruitment Tool
+# Resume Ranker — AI Powered Recruitment Tool
 
 An AI-powered web application that helps recruiters
 screen and rank multiple resumes against a job description
 using NLP and Machine Learning.
 
-## 🌐 Live Demo
-[Click here to try the app](https://your-app-link.streamlit.app)
+## Live Demo
+[Click here to try the app](https://ai-resume-ranker-swathi.streamlit.app/)
 
-## 🎯 Features
+## Features
 - Upload multiple resumes (PDF or DOCX)
 - Paste any job description
 - AI-powered scoring using 3 methods
@@ -16,14 +16,14 @@ using NLP and Machine Learning.
 - Downloadable PDF report
 - Interactive Plotly charts
 
-## 🧠 How Scoring Works
+## How Scoring Works
 | Method | Weight | Description |
 |---|---|---|
 | Skill Matching | 40% | Keyword + alias matching |
 | Semantic Score | 25% | SentenceTransformers embeddings |
 | Section Score | 35% | Section weighted skill matching |
 
-## 🛠️ Tech Stack
+## Tech Stack
 | Category | Tools |
 |---|---|
 | Language | Python 3.12 |
@@ -34,7 +34,7 @@ using NLP and Machine Learning.
 | Charts | Plotly |
 | Data | Pandas, NumPy |
 
-## 🚀 Run Locally
+## Run Locally
 
 ### 1. Clone the repo
 ```bash
@@ -63,10 +63,10 @@ python -m spacy download en_core_web_sm
 streamlit run app/dashboard.py
 ```
 
-## 📊 Screenshots
+## Screenshots
 *(Add screenshots here after deployment)*
 
-## 🔮 Future Improvements
+## Future Improvements
 - Experience year extraction
 - Education level matching
 - Fuzzy matching for typos
