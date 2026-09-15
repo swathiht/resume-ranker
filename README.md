@@ -19,9 +19,9 @@ using NLP and Machine Learning.
 ## How Scoring Works
 | Method | Weight | Description |
 |---|---|---|
-| Skill Matching | 40% | Keyword + alias matching |
-| Semantic Score | 25% | SentenceTransformers embeddings |
-| Section Score | 35% | Section weighted skill matching |
+| Skill Matching | 60% | Keyword + alias matching |
+| Semantic Score | 10% | SentenceTransformers embeddings |
+| Section Score | 30% | Section weighted skill matching |
 
 ## Tech Stack
 | Category | Tools |
