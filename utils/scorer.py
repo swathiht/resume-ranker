@@ -284,9 +284,9 @@ def calculate_score(resume_text, jd_text,
     """
     Combined score using 3 methods:
 
-    Skill match score     → 40%
-    Semantic similarity   → 35%
-    Section weighted      → 25%
+    Skill match score     → 60%
+    Semantic similarity   → 10%
+    Section weighted      → 30%
 
     Future improvements:
     → Add experience year extraction
